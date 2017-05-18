@@ -48,3 +48,18 @@ end
 
 sample "Zara", "6", "F"
 sample "Mac", "36", "M", "MCA"
+
+# 不实例化进行方法调用
+
+class Accounts
+  def reading_charge
+    puts 'a'
+  end
+
+  def Accounts.return_date
+    puts 'hello'
+  end
+end
+
+# Accounts.reading_charge
+Accounts.return_date
