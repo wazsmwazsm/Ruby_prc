@@ -22,3 +22,8 @@ myStr = String.new(str="Hello moto!")
 foo = myStr.downcase
 
 puts "#{foo}"
+
+# 字符串方法
+
+# 连接
+puts 'aaa' + 'bbb'
