@@ -16,6 +16,9 @@ H = Hash['a' => 100, 'b' => 200]
 puts "#{H['a']}"
 puts "#{H['b']}"
 
+H.each do |i|
+    puts i
+end
 
 # 哈希内置方法
 
